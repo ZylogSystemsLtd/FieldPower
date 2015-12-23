@@ -10,7 +10,7 @@ namespace GitSample.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View();//added by rajasrirangan1
         }
 
         public ActionResult About()
