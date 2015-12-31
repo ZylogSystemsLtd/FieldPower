@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSample", "GitSample\GitSample.csproj", "{27B35E69-336B-46C2-B587-7103FD062FB4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3255E177-55BB-4AF3-AAEA-D972F2DCBD2D} = {3255E177-55BB-4AF3-AAEA-D972F2DCBD2D}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitSample", "NUnitSample\NUnitSample.csproj", "{03874E6F-024F-4CF4-8425-847FBF9CF333}"
 EndProject
