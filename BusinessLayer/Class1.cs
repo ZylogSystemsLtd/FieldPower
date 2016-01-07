@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GitSample
+namespace BusinessLayer
 {
     public class MathsHelper
     {
-        public MathsHelper() { }
+
         public int Add(int a, int b)
         {
             int x = a + b;
@@ -21,5 +21,6 @@ namespace GitSample
             int x = a - b;
             return x;
         }
+
     }
 }

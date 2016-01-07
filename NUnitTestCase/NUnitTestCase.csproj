@@ -7,8 +7,8 @@
     <ProjectGuid>{3255E177-55BB-4AF3-AAEA-D972F2DCBD2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GitSample</RootNamespace>
-    <AssemblyName>GitSample</AssemblyName>
+    <RootNamespace>NUnitTestCase</RootNamespace>
+    <AssemblyName>NUnitTestCase</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -66,9 +66,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NUnitSample\NUnitSample.csproj">
-      <Project>{03874e6f-024f-4cf4-8425-847fbf9cf333}</Project>
-      <Name>NUnitSample</Name>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{b8a0d859-37bd-470f-a531-19829bc276a7}</Project>
+      <Name>BusinessLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

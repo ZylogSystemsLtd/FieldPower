@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
+using BusinessLayer;
 
-namespace GitSample
+namespace NUnitTestCase
 {
     [TestFixture]
     public class UnitTest
